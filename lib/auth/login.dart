@@ -48,6 +48,7 @@ class _LoginPageState extends State<LoginPage> {
       appBar: AppBar(
         surfaceTintColor: Colors.white,
         backgroundColor: Colors.white,
+        automaticallyImplyLeading: false,
       ),
       body: GestureDetector(
         onTap: () {
@@ -155,6 +156,33 @@ class _LoginPageState extends State<LoginPage> {
                         }
                       }
                     },
+                  ),
+                ],
+              ),
+            ),
+          ),
+        ),
+      ),
+      bottomSheet: GestureDetector(
+        onTap: () {
+          _navigationServices.pushNamed('/register');
+        },
+        child: Container(
+          width: Get.width,
+          height: 50,
+          color: Colors.white,
+          child: Center(
+            child: RichText(
+              text: const TextSpan(
+                text: 'Don\'t have an account? ',
+                style: TextStyle(color: Colors.black),
+                children: [
+                  TextSpan(
+                    text: 'Register',
+                    style: TextStyle(
+                      color: Colors.blue,
+                      fontWeight: FontWeight.bold,
+                    ),
                   ),
                 ],
               ),
