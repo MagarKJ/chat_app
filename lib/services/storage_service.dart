@@ -39,6 +39,31 @@ class StorageService {
     return null;
   }
 
+  // Future<String?> uploadImageToChat({ required File file }) async {
+  //   try {
+  //     Dio dio = Dio();
+  //     FormData formData = FormData.fromMap({
+  //       'image': await MultipartFile.fromFile(file.path),
+  //     });
+  //     Response response = await dio.post(
+  //       'https://api.imgur.com/3/image',
+  //       data: formData,
+  //       options: Options(
+  //         headers: {
+  //           'Authorization': 'Client-ID $clientId',
+  //         },
+  //       ),
+  //     );
+  //     if (response.statusCode == 200) {
+  //       log(response.data.toString());
+  //       return response.data['data']['link']; // image url
+  //     }
+  //   } catch (e) {
+  //     log(e.toString());
+  //   }
+  //   return null;
+  // }
+
   Future<void> saveImageUrlToFirestore(String uid, String imageUrl) async {
     // save image url to firestore
     try {

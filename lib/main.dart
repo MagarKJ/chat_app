@@ -1,6 +1,5 @@
-import 'package:chat_app/auth/login.dart';
-import 'package:chat_app/auth/services/auth_services.dart';
-import 'package:chat_app/auth/services/navigation_services.dart';
+import 'package:chat_app/services/auth_services.dart';
+import 'package:chat_app/services/navigation_services.dart';
 import 'package:chat_app/firebase_options.dart';
 import 'package:chat_app/utils/utils.dart';
 import 'package:firebase_core/firebase_core.dart';

@@ -1,6 +1,6 @@
 import 'dart:developer';
 
-import 'package:chat_app/auth/services/navigation_services.dart';
+import 'package:chat_app/services/navigation_services.dart';
 import 'package:delightful_toast/delight_toast.dart';
 import 'package:delightful_toast/toast/components/toast_card.dart';
 import 'package:delightful_toast/toast/utils/enums.dart';

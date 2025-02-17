@@ -1,11 +1,11 @@
 import 'dart:developer';
 import 'dart:io';
 
-import 'package:chat_app/auth/services/auth_services.dart';
-import 'package:chat_app/auth/services/database_service.dart';
-import 'package:chat_app/auth/services/media_service.dart';
-import 'package:chat_app/auth/services/navigation_services.dart';
-import 'package:chat_app/auth/services/storage_service.dart';
+import 'package:chat_app/services/auth_services.dart';
+import 'package:chat_app/services/database_service.dart';
+import 'package:chat_app/services/media_service.dart';
+import 'package:chat_app/services/navigation_services.dart';
+import 'package:chat_app/services/storage_service.dart';
 import 'package:chat_app/custom_widgets/custom_text_feild.dart';
 import 'package:email_validator/email_validator.dart';
 import 'package:flutter/material.dart';

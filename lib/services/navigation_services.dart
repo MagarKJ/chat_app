@@ -2,7 +2,7 @@ import 'package:chat_app/auth/login.dart';
 import 'package:chat_app/homepage/homepage.dart';
 import 'package:flutter/material.dart';
 
-import '../signup.dart';
+import '../auth/signup.dart';
 
 class NavigationServices {
   late GlobalKey<NavigatorState> _navigatorKey;
@@ -11,6 +11,7 @@ class NavigationServices {
     "/login": (context) => const LoginPage(),
     "/home": (context) => const Homepage(),
     "/register": (context) => const Register(),
+    // "/chat": (context) => const ChatPage(),
   };
 
   GlobalKey<NavigatorState> get navigatorKey => _navigatorKey;
@@ -19,6 +20,10 @@ class NavigationServices {
 
   NavigationServices() {
     _navigatorKey = GlobalKey<NavigatorState>();
+  }
+
+  void push(MaterialPageRoute route) {
+    _navigatorKey.currentState?.push(route);
   }
 
   void pushNamed(String routeName) {

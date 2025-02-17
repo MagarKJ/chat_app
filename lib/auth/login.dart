@@ -1,8 +1,8 @@
 import 'dart:developer';
 
-import 'package:chat_app/auth/services/alert_services.dart';
-import 'package:chat_app/auth/services/auth_services.dart';
-import 'package:chat_app/auth/services/navigation_services.dart';
+import 'package:chat_app/services/alert_services.dart';
+import 'package:chat_app/services/auth_services.dart';
+import 'package:chat_app/services/navigation_services.dart';
 import 'package:chat_app/custom_widgets/custom_buttons.dart';
 import 'package:email_validator/email_validator.dart';
 import 'package:flutter/material.dart';
