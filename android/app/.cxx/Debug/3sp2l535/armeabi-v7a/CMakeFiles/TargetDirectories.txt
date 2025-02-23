@@ -1,0 +1,2 @@
+C:/Users/Acer/Desktop/chat app/chat_app/android/app/.cxx/Debug/3sp2l535/armeabi-v7a/CMakeFiles/edit_cache.dir
+C:/Users/Acer/Desktop/chat app/chat_app/android/app/.cxx/Debug/3sp2l535/armeabi-v7a/CMakeFiles/rebuild_cache.dir
